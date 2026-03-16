@@ -115,7 +115,7 @@
           "integrations/azure-repos-integration",
           "integrations/vscode-extension",
           "integrations/mcp-server-configuration",
-          "integrations/vibe-kanban-mcp-server"
+          "integrations/kira-code-mcp-server"
         ]
       },
       {
@@ -135,13 +135,13 @@
     "links": [
       {
         "label": "GitHub",
-        "href": "https://github.com/BloopAI/vibe-kanban"
+        "href": "https://github.com/KairosUtamaIndonesia/kira-code"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "https://vibekanban.com/docs"
+      "href": "https://kira-code.kairos-it.com/docs"
     }
   },
   "contextual": {
@@ -174,7 +174,7 @@
   ],
   "footer": {
     "socials": {
-      "github": "https://github.com/BloopAI/vibe-kanban",
+      "github": "https://github.com/KairosUtamaIndonesia/kira-code",
       "x": "https://x.com/vibekanban"
     }
   }

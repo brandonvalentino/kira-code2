@@ -206,7 +206,7 @@ function checkForUpdates(): void {
       if (latest && latest !== CLI_VERSION) {
         setTimeout(() => {
           console.log(`\nUpdate available: ${CLI_VERSION} -> ${latest}`);
-          console.log(`Run: npx vibe-kanban@latest`);
+          console.log(`Run: npx kira-code@latest`);
         }, 2000);
       }
     })
@@ -214,7 +214,7 @@ function checkForUpdates(): void {
 }
 
 async function runMcp(args: string[]): Promise<void> {
-  await extractAndRun("vibe-kanban-mcp", (bin) => {
+  await extractAndRun("kira-code-mcp", (bin) => {
     const proc = spawn(bin, buildMcpArgs(args), {
       stdio: "inherit",
     });
@@ -231,7 +231,7 @@ async function runMcp(args: string[]): Promise<void> {
 }
 
 async function runReview(args: string[]): Promise<void> {
-  await extractAndRun("vibe-kanban-review", (bin) => {
+  await extractAndRun("kira-code-review", (bin) => {
     const proc = spawn(bin, args, { stdio: "inherit" });
     proc.on("exit", (c) => process.exit(c || 0));
     proc.on("error", (e) => {
@@ -252,7 +252,7 @@ async function runMain(desktopMode: boolean): Promise<void> {
   if (desktopMode && tauriPlatform) {
     try {
       console.log(
-        `Starting vibe-kanban desktop v${CLI_VERSION}${modeLabel}...`,
+        `Starting kira-code desktop v${CLI_VERSION}${modeLabel}...`,
       );
       const bundleInfo = await ensureDesktopBundle(tauriPlatform, showProgress);
       console.error(""); // newline after progress
@@ -272,8 +272,8 @@ async function runMain(desktopMode: boolean): Promise<void> {
   }
 
   // Browser mode (default — headless server + opens browser)
-  console.log(`Starting vibe-kanban v${CLI_VERSION}${modeLabel}...`);
-  await extractAndRun("vibe-kanban", (bin) => {
+  console.log(`Starting kira-code v${CLI_VERSION}${modeLabel}...`);
+  await extractAndRun("kira-code", (bin) => {
     execSync(`"${bin}"`, { stdio: "inherit" });
   });
 }
@@ -307,10 +307,10 @@ function runOrExit(task: Promise<void>): void {
 
 async function main(): Promise<void> {
   fs.mkdirSync(versionCacheDir, { recursive: true });
-  const cli = cac("vibe-kanban");
+  const cli = cac("kira-code");
 
   cli
-    .command("[...args]", "Launch the local vibe-kanban app")
+    .command("[...args]", "Launch the local kira-code app")
     .option("--desktop", "Launch the desktop app instead of browser mode")
     .allowUnknownOptions()
     .action((_args: string[], options: RootOptions) => {

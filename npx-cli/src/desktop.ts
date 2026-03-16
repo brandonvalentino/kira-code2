@@ -235,7 +235,7 @@ async function installAndLaunchWindows(
     // For interactive install, the default location is used
     const defaultDir = path.join(
       process.env.LOCALAPPDATA || '',
-      'vibe-kanban'
+      'kira-code'
     );
     if (fs.existsSync(path.join(defaultDir, 'Vibe Kanban.exe'))) {
       writeSentinel(dir, {

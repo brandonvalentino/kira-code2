@@ -389,7 +389,7 @@ export function AppBar({
         {notificationBell}
         {userPopover}
         <AppBarSocialLink
-          href="https://github.com/BloopAI/vibe-kanban"
+          href="https://github.com/KairosUtamaIndonesia/kira-code"
           label="Star on GitHub"
           iconPath={githubIconPath}
           badge={

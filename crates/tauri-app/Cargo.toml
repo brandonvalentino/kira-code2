@@ -1,10 +1,10 @@
 [package]
-name = "vibe-kanban-tauri"
+name = "kira-code-tauri"
 version = "0.1.30"
 edition = "2024"
 
 [[bin]]
-name = "vibe-kanban-tauri"
+name = "kira-code-tauri"
 path = "src/main.rs"
 
 [build-dependencies]
