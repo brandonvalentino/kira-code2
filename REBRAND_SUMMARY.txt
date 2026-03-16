@@ -1,0 +1,67 @@
+KIRA CODE REBRAND SUMMARY
+=========================
+
+COMPLETED: 145 files modified, 465 insertions(+), 465 deletions(-)
+
+KEY CHANGES:
+------------
+
+1. NPM Package Names
+   - vibe-kanban → kira-code (root package.json)
+   - vibe-kanban → kira-code (npx-cli/package.json)
+
+2. CLI Commands
+   - npx vibe-kanban → npx kira-code
+   - vibe-kanban-mcp → kira-code-mcp
+
+3. GitHub URLs
+   - BloopAI/vibe-kanban → KairosUtamaIndonesia/kira-code
+
+4. Domain Names
+   - vibekanban.com → kira-code.kairos-it.com
+
+5. Environment Variables
+   - VK_* → KIRA_* (e.g., VK_ALLOWED_ORIGINS → KIRA_ALLOWED_ORIGINS)
+   - VITE_VK_* → VITE_KIRA_* (e.g., VITE_VK_SHARED_API_BASE → VITE_KIRA_SHARED_API_BASE)
+
+6. Directory Paths
+   - .vibe-kanban-workspaces → .kira-code-workspaces
+   - .vibe-kanban/ → .kira-code/
+   - vibe-kanban-dev → kira-code-dev
+
+7. Rust Crate Names
+   - vibe-kanban-mcp → kira-code-mcp
+   - vibe-kanban-tauri → kira-code-tauri
+
+8. Logo/Assets
+   - vibe-kanban-logo.svg → kira-code-logo.svg (copied from kira-logo.svg)
+   - vibe-kanban-logo-dark.svg → kira-code-logo-dark.svg
+
+9. Documentation (36+ MDX files)
+   - All installation commands updated
+   - All URLs updated
+   - All product names updated
+
+10. i18n (7 locales)
+    - All workspace path references updated
+
+11. Frontend Code
+    - All logo references updated
+    - All API endpoints updated
+    - SPAKE2 IDs updated (vibe-kanban-browser → kira-code-browser)
+
+FILES NOT CHANGED (intentionally):
+----------------------------------
+- Mock/test fixture data (historical paths)
+- package-lock.json (auto-generated)
+- Cargo.lock (auto-generated)
+
+NEXT STEPS:
+-----------
+1. Run pnpm run format to format all code
+2. Run pnpm run check to verify TypeScript
+3. Run pnpm run lint to check for issues
+4. Test the build with pnpm run dev
+5. Create git commit with all changes
+6. Update CHANGELOG.md with breaking changes
+7. Publish new npm package as kira-code

@@ -114,12 +114,12 @@ const SOCIAL_LINKS = [
   },
   {
     label: 'GitHub',
-    href: 'https://github.com/BloopAI/vibe-kanban',
+    href: 'https://github.com/KairosUtamaIndonesia/kira-code',
     icon: GithubLogoIcon,
   },
   {
     label: 'Docs',
-    href: 'https://www.vibekanban.com/docs',
+    href: 'https://www.kira-code.kairos-it.com/docs',
     icon: BookOpenIcon,
   },
 ];
@@ -176,8 +176,8 @@ export function LandingPage() {
 
   const logoSrc =
     resolveTheme(theme) === 'dark'
-      ? '/vibe-kanban-logo-dark.svg'
-      : '/vibe-kanban-logo.svg';
+      ? '/kira-code-logo-dark.svg'
+      : '/kira-code-logo.svg';
 
   useEffect(() => {
     if (!config || initialized) return;
@@ -355,7 +355,7 @@ export function LandingPage() {
                 <code>--yolo</code> by default. Always review what agents are
                 doing.{' '}
                 <a
-                  href="https://www.vibekanban.com/docs/getting-started#safety-notice"
+                  href="https://www.kira-code.kairos-it.com/docs/getting-started#safety-notice"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-brand hover:underline"
@@ -545,7 +545,7 @@ export function LandingPage() {
           <p className="text-xs text-low">
             By continuing you agree to the{' '}
             <a
-              href="https://www.vibekanban.com/terms"
+              href="https://www.kira-code.kairos-it.com/terms"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand hover:underline"
@@ -554,7 +554,7 @@ export function LandingPage() {
             </a>{' '}
             and{' '}
             <a
-              href="https://www.vibekanban.com/privacy"
+              href="https://www.kira-code.kairos-it.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand hover:underline"

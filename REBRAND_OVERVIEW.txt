@@ -1,0 +1,310 @@
+================================================================================
+REBRAND ANALYSIS COMPLETE: BloopAI/vibe-kanban → Kira Code
+================================================================================
+
+PROJECT SCOPE:
+- Total files to update: ~82 files across the repository
+- Documentation files: 36+ (markdown/MDX)
+- Source code files: 20+ (TypeScript, Rust, JavaScript)
+- Configuration files: 8
+- GitHub workflow files: 6
+- Internationalization files: 7
+- Build/script files: 3
+
+================================================================================
+REFERENCE DOCUMENTS CREATED:
+================================================================================
+
+1. REBRAND_INDEX.md (9.6 KB)
+   ✓ Navigation guide to all documents
+   ✓ Quick start instructions
+   ✓ Phase overview
+   ✓ Common Q&A
+   ✓ SUCCESS CRITERIA
+   → START HERE for orientation
+
+2. REBRAND_SUMMARY.md (11 KB)
+   ✓ Executive overview
+   ✓ Reference types to update (7 types)
+   ✓ Recommended 7-stage execution plan
+   ✓ Estimated time: 11-19 hours
+   ✓ Important considerations
+   ✓ Verification checklist
+   → READ SECOND for planning
+
+3. REBRAND_CHECKLIST.md (10.4 KB)
+   ✓ 8 phases with checkboxes
+   ✓ Line numbers for each file
+   ✓ Detailed instructions per phase
+   ✓ Priority-based execution
+   ✓ Search commands
+   → USE DURING EXECUTION
+
+4. REBRAND_REFERENCES.md (11.6 KB)
+   ✓ All 82 files listed with exact line numbers
+   ✓ Organized by reference type
+   ✓ Direct GitHub URL references (11 files)
+   ✓ Indirect vibe-kanban references (50+ files)
+   ✓ Summary statistics
+   → REFERENCE FOR DETAILS
+
+5. REBRAND_FILES_BY_TYPE.md (11.4 KB)
+   ✓ Files organized by type
+   ✓ Quick lookup by category
+   ✓ Line numbers for each reference
+   ✓ Search commands
+   → QUICK LOOKUP BY FILE TYPE
+
+================================================================================
+KEY STATISTICS:
+================================================================================
+
+REFERENCE TYPES TO UPDATE:
+  1. GitHub URLs & Organization          → 11 files
+  2. Package & Product Names             → 20+ files
+  3. Directory & Path References         → 8+ files
+  4. Asset & Logo References             → 5+ files
+  5. API & Authentication IDs            → 2-3 files
+  6. Marketplace & Extension IDs          → 1-2 files
+  7. Documentation & Text References     → 30+ files
+
+FILE TYPE BREAKDOWN:
+  • Configuration (package.json, Cargo.toml)  → 4 files
+  • Documentation (MD/MDX)                    → 36 files
+  • TypeScript/React Code                     → 12 files
+  • Internationalization (i18n)               → 7 files
+  • Rust Code                                 → 2 files
+  • NPX CLI Code                              → 4 files
+  • JSON Config                               → 1 file
+  • Build Scripts                             → 3 files
+  • GitHub Workflows (YAML)                   → 6 files
+  • Git Config                                → 1 file
+  • Test Data/Fixtures                        → 2 files
+
+ESTIMATED TIME: 11-19 hours
+  • Preparation:       1-2 hours
+  • Critical updates:  2-3 hours
+  • Frontend/branding: 2-3 hours
+  • Documentation:     2-4 hours
+  • Infrastructure:    1-2 hours
+  • Testing:           2-3 hours
+  • Release:           1-2 hours
+
+================================================================================
+TOP PRIORITY FILES (Update First):
+================================================================================
+
+🔴 CRITICAL - Update First (Phase 1):
+  1. README.md                                       (8 references)
+  2. npx-cli/package.json                           (3 references)
+  3. package.json                                   (2 references)
+  4. docs/index.mdx                                 (1 reference)
+  5. docs/getting-started.mdx                       (1+ references)
+  6. packages/ui/src/components/AppBar.tsx          (1 reference)
+  7. packages/web-core/.../LandingPage.tsx          (2 references)
+  8. packages/web-core/.../ReleaseNotesDialog.tsx   (1 reference)
+  9. crates/server/src/routes/releases.rs           (1 reference)
+  10. docs/docs.json                                (2 references)
+
+================================================================================
+RECOMMENDED EXECUTION PLAN:
+================================================================================
+
+PHASE 1: Critical Public-Facing (2-3 hours)
+  • README.md
+  • Root package.json
+  • NPX CLI package.json
+  • Main documentation
+  • Frontend GitHub links
+
+PHASE 2: High-Priority API & Config (2-3 hours)
+  • GitHub API endpoints
+  • Rust backend files
+  • Release URLs
+  • Configuration files
+
+PHASE 3: Frontend Branding (2-3 hours)
+  • Logo assets
+  • Onboarding pages
+  • Component references
+  • Internationalization
+
+PHASE 4: Documentation (2-4 hours)
+  • All /docs markdown files
+  • Integration guides
+  • Deployment docs
+  • Agent configurations
+
+PHASE 5: Build Infrastructure (1-2 hours)
+  • NPX CLI code
+  • Build scripts
+  • GitHub workflows
+  • .gitignore
+
+PHASE 6: Testing & Verification (2-3 hours)
+  • Format code
+  • Linting
+  • Type checking
+  • Build testing
+
+PHASE 7: Release (1-2 hours)
+  • Version updates
+  • Release notes
+  • npm publish
+  • Announcement
+
+================================================================================
+MAIN CHANGES REQUIRED:
+================================================================================
+
+1. GitHub URLs:
+   https://github.com/BloopAI/vibe-kanban
+   → https://github.com/[NEW_ORG]/kira-code
+
+2. Package Names:
+   "vibe-kanban"
+   → "kira-code"
+
+3. CLI Command:
+   npx vibe-kanban
+   → npx kira-code
+
+4. Workspace Directories:
+   .vibe-kanban-workspaces
+   → .kira-code-workspaces
+
+5. Logo Files:
+   vibe-kanban-logo.svg
+   → kira-code-logo.svg
+
+6. VSCode Extension ID:
+   bloop.vibe-kanban
+   → bloop.kira-code (or similar)
+
+7. SPAKE2 IDs:
+   vibe-kanban-browser/server
+   → kira-code-browser/server
+
+8. Sentry Project:
+   'vibe-kanban'
+   → 'kira-code'
+
+================================================================================
+IMPORTANT CONSIDERATIONS:
+================================================================================
+
+⚠️  USER DATA MIGRATION
+   • Existing users have .vibe-kanban-workspaces directory
+   • New installations will use .kira-code-workspaces
+   • Consider migration script or guidance
+   • Document path change in release notes
+
+⚠️  EXTERNAL DEPENDENCIES
+   • Private repos (BloopAI/vibe-kanban-private)
+   • Deployment repos (BloopAI/vibe-kanban-remote-deployment) - 6 refs
+   • VSCode extension (if separate)
+   • Coordinate with ops/infrastructure team
+
+⚠️  BREAKING CHANGES
+   • New CLI command name
+   • New workspace directory path
+   • New GitHub repository location
+   • Updated npm package name
+
+================================================================================
+HOW TO USE THE DOCUMENTS:
+================================================================================
+
+✓ START HERE:
+  1. Read REBRAND_INDEX.md (quick orientation)
+  2. Read REBRAND_SUMMARY.md (planning)
+  3. Create git branch for rebrand work
+
+✓ DURING EXECUTION:
+  1. Follow REBRAND_CHECKLIST.md phase by phase
+  2. Reference exact line numbers in REBRAND_REFERENCES.md
+  3. Use REBRAND_FILES_BY_TYPE.md for quick file lookups
+  4. Run tests after each phase
+
+✓ FOR DETAILS:
+  1. REBRAND_REFERENCES.md - Full detailed list with line numbers
+  2. REBRAND_FILES_BY_TYPE.md - Files organized by type
+  3. REBRAND_CHECKLIST.md - Actionable steps
+
+================================================================================
+VERIFICATION CHECKLIST:
+================================================================================
+
+Before considering rebrand complete:
+  ✓ All GitHub URLs updated to new repository
+  ✓ All 'npx vibe-kanban' commands updated to 'npx kira-code'
+  ✓ Logo assets renamed and references updated
+  ✓ i18n files updated for workspace paths
+  ✓ API endpoints point to correct repository
+  ✓ VSCode extension ID updated (if applicable)
+  ✓ Documentation links tested
+  ✓ Binary names reflect new branding
+  ✓ Build scripts use new names
+  ✓ CI/CD workflows execute successfully
+  ✓ NPM package publishes with new name
+  ✓ CLI works: npx kira-code --help
+  ✓ No console errors on app startup
+  ✓ GitHub repository settings updated
+  ✓ Release notes include migration guidance
+
+================================================================================
+QUICK SEARCH COMMANDS:
+================================================================================
+
+# Find all vibe-kanban references
+grep -r "vibe-kanban" --include="*.ts" --include="*.tsx" --include="*.md" \
+  --include="*.mdx" --include="*.json" --include="*.toml" --include="*.js"
+
+# Find all BloopAI references
+grep -r "BloopAI" --include="*.ts" --include="*.tsx" --include="*.md" \
+  --include="*.mdx" --include="*.json" --include="*.toml" --include="*.js"
+
+# Find all bloop.vibe-kanban extension references
+grep -r "bloop\.vibe-kanban\|bloop-ai" --include="*.ts" --include="*.tsx" \
+  --include="*.md" --include="*.mdx" --include="*.json"
+
+================================================================================
+FILES CREATED:
+================================================================================
+
+✓ REBRAND_INDEX.md             (Navigation & quick start guide)
+✓ REBRAND_SUMMARY.md           (Executive overview & roadmap)
+✓ REBRAND_CHECKLIST.md         (8-phase actionable checklist)
+✓ REBRAND_REFERENCES.md        (Detailed reference with line numbers)
+✓ REBRAND_FILES_BY_TYPE.md     (Files organized by type)
+✓ REBRAND_OVERVIEW.txt         (This file)
+
+Total documentation: ~45,000 bytes
+Total files to update: ~82
+
+================================================================================
+NEXT STEPS:
+================================================================================
+
+1. [ ] Read REBRAND_INDEX.md (orientation)
+2. [ ] Read REBRAND_SUMMARY.md (planning)
+3. [ ] Review REBRAND_CHECKLIST.md phases
+4. [ ] Create git branch: git checkout -b rebrand/kira-code
+5. [ ] Tag current state: git tag pre-rebrand-kira-code
+6. [ ] Follow checklist phases 1-7 in order
+7. [ ] Run: pnpm run format && pnpm run lint && pnpm run check
+8. [ ] Test: pnpm run dev && npx kira-code --help
+9. [ ] Create release notes with migration guidance
+10. [ ] Publish and announce
+
+================================================================================
+TOTAL ESTIMATED EFFORT: 11-19 HOURS
+================================================================================
+
+Questions? Refer to the individual documents:
+  • Quick lookup? → REBRAND_FILES_BY_TYPE.md
+  • Line numbers? → REBRAND_REFERENCES.md
+  • Execution? → REBRAND_CHECKLIST.md
+  • Planning? → REBRAND_SUMMARY.md
+  • Navigation? → REBRAND_INDEX.md
+

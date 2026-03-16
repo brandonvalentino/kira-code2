@@ -191,7 +191,7 @@ impl GitService {
         if !(has_name && has_email) {
             let mut cfg = repo.config()?;
             cfg.set_str("user.name", "Vibe Kanban")?;
-            cfg.set_str("user.email", "noreply@vibekanban.com")?;
+            cfg.set_str("user.email", "noreply@kira-code.kairos-it.com")?;
         }
         Ok(())
     }
@@ -203,7 +203,7 @@ impl GitService {
     ) -> Result<git2::Signature<'a>, GitServiceError> {
         match repo.signature() {
             Ok(sig) => Ok(sig),
-            Err(_) => git2::Signature::now("Vibe Kanban", "noreply@vibekanban.com")
+            Err(_) => git2::Signature::now("Vibe Kanban", "noreply@kira-code.kairos-it.com")
                 .map_err(GitServiceError::from),
         }
     }

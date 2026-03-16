@@ -96,8 +96,8 @@ export function OnboardingSignInPage() {
 
   const logoSrc =
     resolveTheme(theme) === 'dark'
-      ? '/vibe-kanban-logo-dark.svg'
-      : '/vibe-kanban-logo.svg';
+      ? '/kira-code-logo-dark.svg'
+      : '/kira-code-logo.svg';
 
   const isLoggedIn = loginStatus?.status === 'loggedin';
 
